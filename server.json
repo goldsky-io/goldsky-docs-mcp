@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.goldsky/docs",
+  "description": "Goldsky docs: Feeds x402 pay-per-request guide, wallet APIs, datasets, Turbo, Subgraphs, Edge RPC.",
+  "title": "Goldsky",
+  "repository": {
+    "url": "https://github.com/goldsky-io/goldsky-docs-mcp",
+    "source": "github"
+  },
+  "version": "1.0.3",
+  "websiteUrl": "https://docs.goldsky.com/mcp-server",
+  "icons": [
+    {
+      "src": "https://goldsky.com/images/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://goldsky.com/images/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    },
+    {
+      "src": "https://goldsky.com/images/favicon-96x96.png",
+      "mimeType": "image/png",
+      "sizes": ["96x96"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docs.goldsky.com/mcp"
+    }
+  ]
+}
