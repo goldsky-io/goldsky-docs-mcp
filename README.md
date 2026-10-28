@@ -2,7 +2,7 @@
 
 # Goldsky Docs MCP server
 
-A remote MCP server that lets AI assistants search and read the [Goldsky documentation](https://docs.goldsky.com). Goldsky provides onchain data for apps and finance teams: Feeds (wallet balance and transfer APIs), prebuilt onchain datasets, Turbo pipelines, Subgraphs, Mirror, and Edge RPC across 150+ chains.
+A remote MCP server that lets AI assistants search and read the [Goldsky documentation](https://docs.goldsky.com). Goldsky provides onchain data for apps and finance teams: Feeds (REST APIs for wallet balances and transfers, token prices, Polymarket prediction-market data, and block data, payable per request with x402), prebuilt onchain datasets, Turbo pipelines, Subgraphs, Mirror, and Edge RPC across 150+ chains.
 
 - Endpoint: `https://docs.goldsky.com/mcp`
 - Transport: Streamable HTTP
@@ -67,6 +67,7 @@ Any client that supports remote MCP servers over Streamable HTTP can connect to 
 Ask your assistant a Goldsky question. It calls the docs tools and answers with links to the pages it used. Examples:
 
 - "How do I get a wallet's token balances with Goldsky Feeds?"
+- "How do I get a wallet's Polymarket positions with Goldsky Feeds?"
 - "How do I send a Turbo pipeline's output to a Postgres database?"
 - "How do I migrate my subgraph from The Graph to Goldsky?"
 - "How much does Goldsky Edge RPC cost?"
