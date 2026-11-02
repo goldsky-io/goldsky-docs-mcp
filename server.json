@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.goldsky/docs",
-  "description": "Goldsky docs: Feeds x402 pay-per-request guide, wallet APIs, datasets, Turbo, Subgraphs, Edge RPC.",
+  "description": "Goldsky docs: Edge RPC, Feeds APIs, Subgraphs, Turbo, x402 pay-per-request. Hyperliquid, Elysium.",
   "title": "Goldsky",
   "repository": {
     "url": "https://github.com/goldsky-io/goldsky-docs-mcp",
     "source": "github"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "websiteUrl": "https://docs.goldsky.com/mcp-server",
   "icons": [
     {
